@@ -1,6 +1,6 @@
 # GitGeek - Developer Assistant Extension
 
-![GitGeek Banner](./path/to/banner-image.jpg)
+![GitGeek Banner](./banner.png)
 
 ### [![Download GitGeek](https://img.shields.io/badge/Download-Extension-blue.svg)](link_to_your_extension.zip)
 
