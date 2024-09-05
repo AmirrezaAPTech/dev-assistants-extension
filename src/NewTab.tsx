@@ -13,8 +13,8 @@ const NewTab = () => {
   const [bookmarkFullVisible, setBookmarkFullVisible] = useState(false)
 
   return (
-    <div className={`min-h-screen h-full flex justify-center items-start py-12 w-screen min-w-[580px] overflow-auto NewTab no-scrollbar`}>
-      <div className="xl:grid xl:grid-cols-4 xl:h-[624px] min-h-[10rem] gap-x-3 xl:w-[1200px] max-xl:max-w-[700px] w-full max-xl:flex max-xl:flex-col-reverse max-xl:justify-center max-xl:gap-y-6 max-xl:items-center">
+    <div className={`min-h-screen h-full flex justify-center items-start 2xl:py-8 py-6 w-screen min-w-[580px] max-xl:overflow-y-auto overflow-x-hidden NewTab no-scrollbar`}>
+      <div className="xl:grid xl:grid-cols-4 xl:h-[624px] min-h-[10rem] gap-x-3 xl:w-[1200px] max-xl:max-w-[700px] w-full max-xl:flex max-xl:flex-col-reverse max-xl:justify-center max-xl:gap-y-6 max-xl:items-center no-scrollbar">
           <div className="w-full rounded-2xl bg-white gap-y-2 relative p-2 shadow-2xl xl:hidden">
             <CalenderWidget />
           </div>
