@@ -2,7 +2,7 @@
 
 ![GitGeek Banner](./banner.png)
 
-### [![Download GitGeek](https://img.shields.io/badge/Download-Extension-blue.svg)](link_to_your_extension.zip)
+### [![Download GitGeek](https://img.shields.io/badge/Download-Extension-blue.svg)](./GitGeek.zip)
 
 ---
 
