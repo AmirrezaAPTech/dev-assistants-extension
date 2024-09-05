@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Custom New Tab Extension",
+    "version": "1.0",
+    "description": "A custom new tab page for Chrome.",
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "permissions": [],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  

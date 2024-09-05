@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.NewTab {
+    background: radial-gradient(circle at 74.11507924397786% 94.03727213541667%, #222323 0%, 17.5%, rgba(34,35,35,0) 35%), radial-gradient(circle at 58.97912343343099% 66.87540690104167%, rgba(22,87,217,0.61) 0%, 14.7%, rgba(22,87,217,0) 30%), radial-gradient(circle at 0.5939420064290365% 57.086690266927086%, rgba(22,87,217,0.38) 0%, 7.9799999999999995%, rgba(22,87,217,0) 14%), radial-gradient(circle at 13.200607299804688% 9.217885335286459%, rgba(162,56,255,0.24) 0%, 16.5%, rgba(162,56,255,0) 55%), radial-gradient(circle at 100% 37.314453125%, rgba(22,87,217,0.51) 0%, 9.36%, rgba(22,87,217,0) 18%), radial-gradient(circle at 78.61783345540364% 57.83340454101562%, rgba(162,56,255,0.65) 0%, 17.5%, rgba(162,56,255,0) 35%), radial-gradient(circle at 1.8846766153971355% 94.78581746419272%, #222323 0%, 8.6%, rgba(34,35,35,0) 20%), radial-gradient(circle at 48.9013671875% 49.521484375%, #000000 0%, 100%, rgba(0,0,0,0) 100%);
+  }
+  
+.no-scrollbar {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+/* To hide scrollbar but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
