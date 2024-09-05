@@ -79,7 +79,7 @@ const Shortcuts = () => {
   };
 
   return (
-    <div className='flex flex-col gap-y-7 mb-7 w-full'>
+    <div className='flex flex-col gap-y-6 mb-5 w-full'>
       <BookmarkBox imgUrl={ShortcutImg} bookmarkArray={bookmarks} handleAddItem={handleAddItem} handleDeleteItem={handleDeleteItem} />
       <div className='grid grid-cols-2'>
       <BookmarkBox imgUrl={DocumentsImg} bookmarkArray={documents} handleAddItem={handleAddItem} handleDeleteItem={handleDeleteItem} />

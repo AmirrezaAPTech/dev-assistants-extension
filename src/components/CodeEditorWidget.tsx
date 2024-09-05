@@ -26,7 +26,7 @@ const CodeEditorWidget = () => {
                 style={{
                     backgroundColor: "#EEEEEE",
                     borderRadius: 20,
-                    height: 200,
+                    height: 120,
                     overflowY: "auto",
                     fontFamily: 'ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono, Menlo, monospace',
                      width: '100%'

@@ -23,7 +23,7 @@ const SearchBar: React.FC = () => {
   }; 
  
   return ( 
-      <div className="w-full relative mb-6"> 
+      <div className="w-full relative mb-5"> 
         <input 
           type="text" 
           placeholder="Search with Google" 

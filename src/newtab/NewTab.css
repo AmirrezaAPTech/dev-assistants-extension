@@ -15,3 +15,33 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
 }
+
+/* Remove the outer border and box shadow of the calendar */
+.react-calendar {
+    border: none !important;
+    box-shadow: none !important;
+    width: 100%;
+  }
+  
+  /* Remove the border from individual date tiles */
+  .react-calendar__tile {
+    border: none !important;
+  }
+  
+  /* Remove the border from the navigation buttons (previous/next) */
+  .react-calendar__navigation button {
+    border: none !important;
+    outline: none !important;
+  }
+  
+  /* Remove borders from header and footer sections */
+  .react-calendar__month-view__weekdays,
+  .react-calendar__month-view__days {
+    border: none !important;
+  }
+  
+  /* Remove the border from day names */
+  .react-calendar__month-view__weekdays__weekday {
+    border: none !important;
+  }
+  

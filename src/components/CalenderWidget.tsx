@@ -1,18 +1,19 @@
-import React from 'react'
-import { Calendar } from 'rsuite';
-import 'rsuite/dist/rsuite-no-reset.min.css';
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+import '../newtab/NewTab.css';
 
-
+type ValuePiece = Date | null;
+type Value = ValuePiece | [ValuePiece, ValuePiece];
 
 const CalenderWidget = () => {
-    function renderCell() { 
-        return null;
-      }
-      return (
-        <div className='xl:w-[280px] w-full'>
-          <Calendar compact bordered renderCell={renderCell} />
-        </div>
-      );
+  const [value, onChange] = useState<Value>(new Date());
+
+  return (
+    <div className='h-full xl:w-full flex justify-center items-center'>
+      <Calendar onChange={onChange} value={value} />
+    </div>
+  );
 }
 
-export default CalenderWidget
+export default CalenderWidget;

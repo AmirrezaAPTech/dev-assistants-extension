@@ -45,7 +45,7 @@ const TodoListWidget: React.FC = () => {
    const checkedTasks = tasks.filter(task => task.isChecked);
  
    return (
-     <div className="text-black shadow-lg col-span-1 w-full xl:h-auto h-[20rem] rounded-2xl bg-white flex flex-col justify-start">
+     <div className="text-black shadow-lg col-span-1 w-full xl:h-[624px] max-xl:h-[20rem] rounded-2xl bg-white flex flex-col justify-start">
        <div className="px-4 py-3 border-b border-b-[#EEEEEE]">
          <h3 className="text-xl font-semibold">Todo List</h3>
        </div>
